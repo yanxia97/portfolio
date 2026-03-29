@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "name": "语言",
+      "items": ["TypeScript", "JavaScript", "Python"]
+    },
+    {
+      "name": "框架 / 库",
+      "items": ["React", "Vite", "Node.js"]
+    },
+    {
+      "name": "工具",
+      "items": ["Git", "GitHub Actions", "Figma"]
+    }
+  ]
+}

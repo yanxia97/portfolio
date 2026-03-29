@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "id": "portfolio",
+      "name": { "zh": "个人作品集站点", "en": "Portfolio site" },
+      "description": {
+        "zh": "React + Vite 双语单页，部署于 GitHub Pages。",
+        "en": "Bilingual SPA with React + Vite, deployed on GitHub Pages."
+      },
+      "tech": ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      "links": {
+        "github": "https://github.com/yanxia97/portfolio",
+        "demo": null
+      }
+    }
+  ]
+}

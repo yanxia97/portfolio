@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "items": ["TypeScript", "JavaScript", "Python"]
+    },
+    {
+      "name": "Frameworks",
+      "items": ["React", "Vite", "Node.js"]
+    },
+    {
+      "name": "Tools",
+      "items": ["Git", "GitHub Actions", "Figma"]
+    }
+  ]
+}

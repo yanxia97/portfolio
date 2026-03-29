@@ -1,0 +1,38 @@
+{
+  "education": [
+    {
+      "id": "edu-umich-ms",
+      "period": "Aug 2018 — Aug 2020",
+      "title": "M.S. in Information",
+      "org": "University of Michigan, Ann Arbor · School of Information",
+      "description": "Completed the master’s phase in Ann Arbor. Arrived through the UM–SJTU Joint Institute 3+2 dual-degree pathway with Shanghai Jiao Tong University.",
+      "logo": "logos/umich-logo.svg",
+      "logoAlt": "University of Michigan logo"
+    },
+    {
+      "id": "edu-sjtu-bachelor",
+      "period": "Aug 2015 — Jul 2019",
+      "title": "B.S. in Electronic & Computer Engineering",
+      "org": "Shanghai Jiao Tong University · UM–SJTU Joint Institute (Shanghai)",
+      "description": "Undergraduate studies at the Joint Institute (JI), covering the Shanghai segment of the 3+2 program: three years toward the bachelor’s before the master’s in Ann Arbor.",
+      "logo": "logos/sjtu-logo.png",
+      "logoAlt": "Shanghai Jiao Tong University logo"
+    }
+  ],
+  "work": [
+    {
+      "id": "work-sensetime-llm",
+      "period": "Nov 2023 — Present",
+      "title": "Senior Web Front-End Engineer",
+      "org": "SenseTime · LLM Business Unit — Financial Services · Shanghai",
+      "description": "Led end-to-end delivery of front-office and mid-office for large-model agent services using Python FastAPI and Vue 3. Shipped a contract-review AI agent from zero to production in three weeks, automating core AI business workflows.\n\nScaled an AI-native development practice with tools such as Cursor, cutting repetitive coding effort by about 80% and achieving 90%+ AI-generated new code on the project, improving velocity and quality.\n\nOwned H5 front end for a public-cloud face-verification product on a JS + WebAssembly architecture, and independently built both the C++ SDK and browser JS layers: hardened image-signature verification in the SDK, and implemented capture plus real-time rendering in JS/Vue 3 for 95%+ compatibility across mobile Chrome, Safari, and WeChat.\n\nContributed to the LLM mid-platform front end, designing and optimizing tree data for 20,000+ people, 5,000+ org units, and 10 hierarchy levels, keeping interaction and render under one second; supported two standard releases and two custom deployments.\n\nDelivered a financial-grade private-cloud verification service from POC to scale on Docker and Kubernetes, adapting to domestic IT innovation stacks (Kunpeng, openEuler), authoring 10+ deployment scripts for containerization and reducing rollout from days to about four hours.\n\nLed multimodal LLM research analysis: benchmarked competitors and local models in Python, compared classical OCR with multimodal LLMs across scenarios, and fed key samples back to research to improve the foundation model."
+    },
+    {
+      "id": "work-sensetime-smartcity",
+      "period": "Oct 2020 — Nov 2023",
+      "title": "Web Front-End Engineer",
+      "org": "SenseTime · Smart City & Integrated Business · Shanghai",
+      "description": "Built the front end for a large Lingang urban-management admin system on Vue 2 and Element UI, covering core business and data dashboards. Refactored and abstracted components for maintainability and stability; fixed memory leaks in the dashboard player that caused crashes, keeping the system reliable long term.\n\nWorked on a chip training platform UI in React, delivering complex model data-labeling flows for the full AI labeling pipeline with high precision and flexibility.\n\nIndependently shipped the SRE console for a cloud management platform: deploy, upgrade, rollback, and monitoring in one place, cutting manual ops and improving delivery efficiency."
+    }
+  ]
+}

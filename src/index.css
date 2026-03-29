@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-surface: #fafafa;
+  --color-surface-muted: #f4f4f5;
+  --color-ink: #18181b;
+  --color-ink-muted: #52525b;
+  --color-accent: #6366f1;
+  --color-accent-hover: #4f46e5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-surface: #0a0a0b;
+    --color-surface-muted: #18181b;
+    --color-ink: #fafafa;
+    --color-ink-muted: #a1a1aa;
+    --color-accent: #818cf8;
+    --color-accent-hover: #a5b4fc;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  @apply bg-surface text-ink antialiased;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

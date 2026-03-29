@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Portfolio",
+    "description": "Resume and project showcase"
+  },
+  "nav": {
+    "about": "About",
+    "resume": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "ctaResume": "View resume",
+    "ctaProjects": "View projects"
+  },
+  "sections": {
+    "about": "About",
+    "resume": "Experience",
+    "skills": "Skills",
+    "projects": "Projects & code",
+    "contact": "Contact"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "lang": {
+    "zh": "中文",
+    "en": "English"
+  },
+  "resume": {
+    "education": "Education",
+    "work": "Work",
+    "downloadPdf": "Download PDF resume"
+  },
+  "projects": {
+    "github": "Source",
+    "demo": "Demo"
+  }
+}
